@@ -8,6 +8,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("/api", homeRoutes); // ← rutas aquí, en app.js
+app.use("/api", homeRoutes); 
 
 module.exports = app;
