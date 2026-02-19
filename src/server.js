@@ -8,4 +8,4 @@ connectDB().then(() => {       // primero conecta DB
   app.listen(PORT, () => {     // luego arranca el servidor
     console.log(`Server running on port ${PORT}`);
   });
-}); 
+});
